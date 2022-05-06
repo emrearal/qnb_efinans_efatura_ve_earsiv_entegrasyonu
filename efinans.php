@@ -559,9 +559,5 @@ faturaGonder($WsdlAdres,$WsdlKullaniciAdi,$Wsdlsifre,$fltaslakno,$efirmavergino,
 	        }
 	      
 	        echo ('BAŞARILI.. Elektronik Fatura :'.$efatno.' numara ve '.$efatid.' sayılı ID ile oluşturuldu ve veri tabanına kaydedildi. ');
-	        $yevmiyeaciklama=$efatno.' nolu Borç Faturası';
-	        $jszamandamgasi=microtime();
-	        yevmiyekaydiolustur($GLOBALS['muhatapkodu'],$GLOBALS['fattarih'],'Fatura',$efatno,$yevmiyeaciklama,$GLOBALS['faturadovizi'],$GLOBALS['odenecektutar']
-	            ,'Borç',$GLOBALS['tlkuru'],$GLOBALS['odenecektutar'],'0',$jszamandamgasi);
-	    }// fonk sonu
+	     }// fonk sonu
 	?>
