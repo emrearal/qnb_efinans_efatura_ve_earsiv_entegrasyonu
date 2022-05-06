@@ -3,7 +3,7 @@
 ini_set("soap.wsdl_cache_enabled", "0");
 
 $fisno =$_POST['fisno'];  
-$fltaslakno=$_POST['forlogicno']; 
+$fltaslakno=$_POST['faturano'];   // fatura numarasını sistem değil biz atıyoruz
 $sql = "SELECT * from faturavedekontkayitlari where fisno=$fisno";
 $mysqli = new mysqli($GLOBALS['mysqlurl'],$GLOBALS['mysqlusername'] ,$GLOBALS['mysqlpassword'] ,$GLOBALS['mysqldatabase']);
 $mysqli->set_charset("utf8");
