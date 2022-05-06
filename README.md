@@ -1,2 +1,6 @@
-# qnb_efinans_efatura_ve_ear-iv_entegrasy-onu
-Qnb Efinans Efatura ve Earşiv Entegrasyonu
+Qnb Efinans E-fatura ve E-Arşiv Entegrasyonu
+
+Php dilinde yazılmıştır. 
+Program önce müşterinin e fatura mükellefi olup olmadığını sorgular.
+Cevaba göre UBL'yi düzenler ve QNB'ye gönderir.
+Fatura oluşturma sonucu olumlu ise fatura numarasını ve ettn'yi veri tabanına kaydeder.
