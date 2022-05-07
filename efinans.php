@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@emrearal 
-emrearal
-/
-qnb_efinans_efatura_ve_earsiv_entegrasyonu
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-qnb_efinans_efatura_ve_earsiv_entegrasyonu/efinans.php /
-@emrearal
-emrearal Update efinans.php
-Latest commit ce0af4a yesterday
- History
- 1 contributor
-563 lines (510 sloc)  23.6 KB
-   
 <?php
 @ini_set('default_charset', 'UTF-8');
 ini_set("soap.wsdl_cache_enabled", "0");
@@ -590,16 +561,3 @@ faturaGonder($WsdlAdres,$WsdlKullaniciAdi,$Wsdlsifre,$fltaslakno,$efirmavergino,
 	        echo ('BAŞARILI.. Elektronik Fatura :'.$efatno.' numara ve '.$efatid.' sayılı ID ile oluşturuldu ve veri tabanına kaydedildi. ');
 	     }// fonk sonu
 	?>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
